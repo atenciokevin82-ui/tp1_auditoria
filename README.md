@@ -1,6 +1,6 @@
-# tp1_auditoria
+# Trabajo Práctico 1: Trazabilidad e Integridad
 
-el objetivo es registrar los movimientos de una tabla (trazabilidad) y detectar si los datos fueron modificados por fuera del sistema (integridad).
+Este proyecto lo armé para la materia de Auditoría de Sistemas. El objetivo es registrar los movimientos de una tabla (trazabilidad) y detectar si los datos fueron modificados por fuera del sistema (integridad).
 
 ## Características principales
 * Auditoría: Cada inserción, modificación (Update) o borrado lógico (Soft-delete) guarda automáticamente qué usuario lo hizo, el día, la hora y la acción en la tabla `auditoria_usuarios`.
